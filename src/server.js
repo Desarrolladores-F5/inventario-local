@@ -49,7 +49,7 @@ app.get("/", (req, res) => {
 // 🔥 USAR RUTAS MODULARES
 app.use("/productos", productosRoutes);
 app.use("/ventas", ventasRoutes);
-app.use("/movimientos", movimientosRoutes);
+app.use("/movimientos-stock", movimientosRoutes);
 
 app.listen(3000, "0.0.0.0", () => {
   console.log("Servidor corriendo en puerto 3000");
